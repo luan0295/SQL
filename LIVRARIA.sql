@@ -2,11 +2,11 @@ create database LIVRARIA;
 use LIVRARIA;
 create table livros (
 	nome_livro varchar(100),
-	nome_autor varchar(50),
+	nome_autor varchar(100),
 	sexo_autor char(1),
 	paginas int(5),
 	nome_editora varchar(30),
-	valor_livro float(4),
+	valor_livro float(10,2),
     uf_editora char(2),
     ano_publicacao char(4) );
     SHOW TABLES;
